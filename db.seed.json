@@ -1,0 +1,24 @@
+{
+  "items": [
+    { "id": 1, "title": "Dune", "creator": "Denis Villeneuve", "year": 2021, "genre": "Sci-Fi", "status": "done", "rating": 5, "note": "Amazing visuals." },
+    { "id": 2, "title": "Interstellar", "creator": "Christopher Nolan", "year": 2014, "genre": "Sci-Fi", "status": "done", "rating": 5, "note": "One of my favorites." },
+    { "id": 3, "title": "The Batman", "creator": "Matt Reeves", "year": 2022, "genre": "Action", "status": "done", "rating": 4, "note": "Great atmosphere." },
+    { "id": 4, "title": "Oppenheimer", "creator": "Christopher Nolan", "year": 2023, "genre": "Drama", "status": "active", "rating": 4, "note": "Currently watching." },
+    { "id": 5, "title": "Everything Everywhere All at Once", "creator": "Daniel Kwan and Daniel Scheinert", "year": 2022, "genre": "Adventure", "status": "active", "rating": null, "note": "Started recently." },
+    { "id": 6, "title": "Spider-Man: Across the Spider-Verse", "creator": "Joaquim Dos Santos", "year": 2023, "genre": "Animation", "status": "active", "rating": 5, "note": "Animation is incredible." },
+    { "id": 7, "title": "Blade Runner 2049", "creator": "Denis Villeneuve", "year": 2017, "genre": "Sci-Fi", "status": "want", "rating": null, "note": "Need to rewatch." },
+    { "id": 8, "title": "Nope", "creator": "Jordan Peele", "year": 2022, "genre": "Horror", "status": "want", "rating": null, "note": "Looks interesting." },
+    { "id": 9, "title": "Parasite", "creator": "Bong Joon-ho", "year": 2019, "genre": "Thriller", "status": "want", "rating": null, "note": "Heard it is excellent." },
+    { "id": 10, "title": "Tenet", "creator": "Christopher Nolan", "year": 2020, "genre": "Action", "status": "dropped", "rating": 2, "note": "Hard to follow." },
+    { "id": 11, "title": "Morbius", "creator": "Daniel Espinosa", "year": 2022, "genre": "Action", "status": "dropped", "rating": 1, "note": "Did not enjoy it." },
+    { "id": 12, "title": "The Matrix Resurrections", "creator": "Lana Wachowski", "year": 2021, "genre": "Sci-Fi", "status": "dropped", "rating": 2, "note": "Lost interest halfway." },
+    { "id": 13, "title": "Get Out", "creator": "Jordan Peele", "year": 2017, "genre": "Horror", "status": "done", "rating": 5, "note": "Smart and tense." },
+    { "id": 14, "title": "Arrival", "creator": "Denis Villeneuve", "year": 2016, "genre": "Sci-Fi", "status": "done", "rating": 5, "note": "Emotional and thoughtful." },
+    { "id": 15, "title": "The Social Network", "creator": "David Fincher", "year": 2010, "genre": "Drama", "status": "active", "rating": 4, "note": "Great dialogue." },
+    { "id": 16, "title": "Fight Club", "creator": "David Fincher", "year": 1999, "genre": "Drama", "status": "want", "rating": null, "note": "Classic movie to watch." },
+    { "id": 17, "title": "Mad Max: Fury Road", "creator": "George Miller", "year": 2015, "genre": "Action", "status": "done", "rating": 5, "note": "Insane action scenes." },
+    { "id": 18, "title": "The Lighthouse", "creator": "Robert Eggers", "year": 2019, "genre": "Horror", "status": "want", "rating": null, "note": "Looks strange but interesting." },
+    { "id": 19, "title": "Avatar: The Way of Water", "creator": "James Cameron", "year": 2022, "genre": "Adventure", "status": "dropped", "rating": 3, "note": "Too long for me." },
+    { "id": 20, "title": "Whiplash", "creator": "Damien Chazelle", "year": 2014, "genre": "Drama", "status": "active", "rating": 5, "note": "Very intense." }
+  ]
+}
