@@ -12,27 +12,26 @@ function App() {
   const density = useUiStore((state) => state.density);
 
   return (
-    //this is the div that wraps the app and applies the theme and densiity settings for whole app
-    <div className={theme === "dark" ? "dark" : ""}>
-      <div
-        className={`min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white ${
-          density === "compact" ? "text-sm" : "text-base"
-        }`}
-      >
-        <NavBar />
+  <div
+    className={
+      theme === "dark"
+        ? "min-h-screen bg-slate-900 text-white"
+        : "min-h-screen bg-white text-black"
+    }
+  >
+    <NavBar />
 
-        <main className={density === "compact" ? "p-3" : "p-6"}>
-          <Routes>
-            <Route path="/" element={<CatalogPage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/items/:id" element={<ItemDetailPage />} />
-            <Route path="/list/:status" element={<StatusListPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </main>
-      </div>
-    </div>
-  );
+    <main className={density === "compact" ? "p-3 text-sm" : "p-6 text-base"}>
+      <Routes>
+        <Route path="/" element={<CatalogPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/items/:id" element={<ItemDetailPage />} />
+        <Route path="/list/:status" element={<StatusListPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </main>
+  </div>
+);
 }
 
 export default App;
