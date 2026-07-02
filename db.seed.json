@@ -1,4 +1,3 @@
-//this basically just contains the data for the movies and tv shows that are in the app. It is used to seed the database with some initial data and movie examples. the app will display them later. 
 {
   "items": [
     { "id": 1, "title": "Dune", "creator": "Denis Villeneuve", "year": 2021, "genre": "Sci-Fi", "status": "done", "rating": 5, "note": "Amazing visuals." },
