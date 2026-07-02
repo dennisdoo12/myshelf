@@ -1,17 +1,24 @@
-//importing the react router to help with navigation and routing between pages 
+// Importing React Router to help with navigation between pages.
 import { Route, Routes } from "react-router-dom";
+
+// Import all page components.
+import CatalogPage from "./pages/CatalogPage";
+import AboutPage from "./pages/AboutPage";
+import ItemDetailPage from "./pages/ItemDetailPage";
+import StatusListPage from "./pages/StatusListPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
-    //routes defines the different pages of the application we got a catalog page, about page, item detail page, and so fourth. 
+    //this is all thhe routes for the application. the path is the url and the element is the page that will be displayed when the user navigates to that path. 
     <Routes>
-      <Route path="/" element={<h1>Catalog Page</h1>} />
-      <Route path="/about" element={<h1>About Page</h1>} />
-      <Route path="/items/:id" element={<h1>Item Detail Page</h1>} />
-      <Route path="/list/:status" element={<h1>Status List Page</h1>} />
-      <Route path="*" element={<h1>404 Not Found</h1>} />
+      <Route path="/" element={<CatalogPage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/items/:id" element={<ItemDetailPage />} />
+      <Route path="/list/:status" element={<StatusListPage />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 }
-
+//export it to the app
 export default App;
